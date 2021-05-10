@@ -386,14 +386,12 @@ background-color: rgba(245, 244, 250, 1);
     align-items: center;
     justify-content: center;
     margin-right: 30px;
-    border: 1px solid #AFB1B8;
   }
   
-  .customers:hover,
-  .customers:focus{
-    border: 1px solid #2196F3;
+
   }
   .client{
+    box-sizing: border-box;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -401,11 +399,14 @@ background-color: rgba(245, 244, 250, 1);
     border-radius: 4px;
     width: 170px;
     height: 92px;
+     border: 1px solid #AFB1B8;
   }
    
   .client:hover,
   .client:focus{
     fill:rgba(33, 150, 243, 1);
+    border: 1px solid rgb(33, 150, 243);
+    border-radius: 4px; 
   }
 
 
