@@ -401,8 +401,8 @@ background-color: rgba(245, 244, 250, 1);
   }
    
   .client:hover,
-  .client:focus{
-    fill:rgba(33, 150, 243, 1);
+  .client:focus {
+    fill: rgba(33, 150, 243, 1);
     border: 1px solid rgb(33, 150, 243);
     border-radius: 4px; 
   }
@@ -440,14 +440,15 @@ background-color: rgba(245, 244, 250, 1);
     font-size: 14px;
     line-height: 1.7;
   }
+.our-address .link-address {
+  color: var(--our-address-color);
 }
+
 .our-address .link:hover,
 .our-address .link:focus {
   color: var(--primary-white-color);
 }
-.our-address .link-address {
-  color: var(--our-address-color);
-}
+
 
 .list{
   display: inline-flex;
