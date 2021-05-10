@@ -148,8 +148,7 @@ align-items:center ;
 .hero {
   background-image: linear-gradient(to right,
    rgba(47, 48, 58, 0.4),
-   rgba(47, 48, 58, 0.4));
-  background-image: url(../images/overlay1.jpg);
+   rgba(47, 48, 58, 0.4)), url(../images/overlay1.jpg);
   max-width: 1600px;
   height: 600px;
   margin-left:auto ;
